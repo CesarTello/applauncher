@@ -52,10 +52,10 @@ var app = {
         
         // Don't forget to add the org.apache.cordova.device plugin!
         if(device.platform === 'iOS') {
-            scheme = 'twitter://';
+            scheme = 'waze://';
         }
         else if(device.platform === 'Android') {
-            scheme = 'com.twitter.android';
+            scheme = 'com.waze';
         }
         
         appAvailability.check(
